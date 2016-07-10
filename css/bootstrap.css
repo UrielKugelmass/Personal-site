@@ -5989,6 +5989,13 @@ button.close {
   display: none !important;
   visibility: hidden !important;
 }
+.header {
+  text-align: center;
+  img {
+    vertical-align: middle;
+  }
+}
+
 .affix {
   position: fixed;
   -webkit-transform: translate3d(0, 0, 0);
