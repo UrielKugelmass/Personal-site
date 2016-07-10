@@ -5994,11 +5994,19 @@ button.close {
 }
 .header {
   text-align: center;
-  img {
-    vertical-align: middle;
-  }
 }
-
+.circular {
+    background-position: center;
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    background: url("src=https://s32.postimg.org/fai5g6vhh/IMG_2377.jpg") no-repeat;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+}
 .affix {
   position: fixed;
   -webkit-transform: translate3d(0, 0, 0);
