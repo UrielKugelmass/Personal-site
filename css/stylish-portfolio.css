@@ -162,6 +162,11 @@ hr.small {
     -o-background-size: cover;
 }
 
+
+/*rounded pic*/
+.img-circle {
+    border-radius: 50%;
+}
 /* About */
 
 .about {
