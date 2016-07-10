@@ -144,7 +144,9 @@ input {
   line-height: normal;
 }
 .text-vertical-center{
-  color: #FFFFFF;
+  h1{
+    color: #FFFFFF;
+  }
 }
 input[type="checkbox"],
 input[type="radio"] {
