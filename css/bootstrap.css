@@ -143,10 +143,8 @@ input::-moz-focus-inner {
 input {
   line-height: normal;
 }
-.text-vertical-center{
-  h1{
-    color: #FFFFFF;
-  }
+.img-circle {
+    border-radius: 50%;
 }
 input[type="checkbox"],
 input[type="radio"] {
