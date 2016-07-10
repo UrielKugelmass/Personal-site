@@ -161,10 +161,14 @@ hr.small {
     background-size: cover;
     -o-background-size: cover;
 }
+.text-vertical-center{
+  position: sticky;
+}
 
 
 /*rounded pic*/
 .img-circle {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
     border-radius: 50%;
 }
 /* About */
