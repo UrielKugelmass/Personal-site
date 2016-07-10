@@ -143,6 +143,9 @@ input::-moz-focus-inner {
 input {
   line-height: normal;
 }
+.text-vertical-center{
+  color: #FFFFFF;
+}
 input[type="checkbox"],
 input[type="radio"] {
   -webkit-box-sizing: border-box;
