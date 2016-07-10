@@ -1234,10 +1234,15 @@ ol ol {
   list-style: none;
 }
 .list-inline {
-  padding-left: 0;
+      padding-left: 0;
   margin-left: -5px;
   list-style: none;
 }
+ .fb img {
+   width: 100px;
+   height: auto;
+ }
+
 .list-inline > li {
   display: inline-block;
   padding-right: 5px;
