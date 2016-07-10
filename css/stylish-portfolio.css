@@ -170,6 +170,9 @@ hr.small {
 .img-circle {
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
     border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em
 }
 /* About */
 
