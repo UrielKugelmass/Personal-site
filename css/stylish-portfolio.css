@@ -165,6 +165,11 @@ hr.small {
   position: sticky;
 }
 
+.linkedin {
+  left: auto;
+  right: auto;
+}
+
 
 /*rounded pic*/
 .img-circle {
