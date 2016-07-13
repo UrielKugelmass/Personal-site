@@ -48,6 +48,11 @@
   list-style-type: none;
 }
 
+.footer {
+  left: auto;
+  right: auto;
+}
+
 .resume {
   left: auto;
   right: auto;
