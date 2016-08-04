@@ -165,16 +165,15 @@ hr.small {
   position: sticky;
 }
 
-.linkedin {
-  left: auto;
-  right: auto;
+.resume {
+  color: #000000;
 }
 
-.linkedin {
+.fa-linkedin-square {
   color: 	#000000;
 }
 
-.github {
+.fa-github-square {
   color: 	#000000;
 }
 
