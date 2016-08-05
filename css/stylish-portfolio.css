@@ -184,8 +184,17 @@ table.personalInfo {
   margin-left: 30px;
 }
 
+
+.fa-linkedin-square:hover {
+  color: #4875B4;
+}
+
 .fa-github-square {
   color: 	#000000;
+}
+
+.fa-github-square:hover{
+  color:purple
 }
 
 /*rounded pic*/
@@ -199,7 +208,7 @@ table.personalInfo {
 }
 
 
-.img-circle: hover {
+.img-circle:hover {
   -webkit-filter: blur(3px);
 }
 /* About */
