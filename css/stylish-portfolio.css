@@ -181,6 +181,10 @@ table.personalInfo {
   margin-left: auto;
 }
 
+.resume:hover {
+  text-decoration: none;
+}
+
 .fa-linkedin-square {
   color: 	#000000;
   margin-left: 30px;
