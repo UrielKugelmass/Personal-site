@@ -197,6 +197,10 @@ table.personalInfo {
     margin: 0 auto;
     border: 4px solid white;
 }
+
+
+.img-circle: hover {
+  -webkit-filter: blur(3px);
 }
 /* About */
 
