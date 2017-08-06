@@ -38,47 +38,35 @@
         <div class="text-vertical-center">
           <img class="img-circle" src='https://s32.postimg.org/dswsllewl/IMG_2377_square.jpg' />
             <h1 class="title-name">URIEL KUGELMASS</h1>
-            <br>
-            <table class = "personalInfo">
-              <tbody>
-                <tr>
-                  <td>
-                    <div class="resume">
-                        <a href="Resume/Resume Uriel Kugelmass.pdf" class="resume" target="_blank">My resume</a>
-                    </div>
-                  </td>
 
-                  <td>
-                    <div class="linkedin">
-                              <a href="https://uy.linkedin.com/pub/uriel-kugelmass/b0/60/535">
-                                <i class="fa fa-linkedin-square fa-2x" aria-hidden="false"></i>
-                              </a>
-                              </div>
-                  </td>
-                  <td>
-                    <div class="github">
-                    <a href= "https://github.com/UrielKugelmass">
-                      <i class="fa fa-github-square fa-2x" aria-hidden="false"></i>
-                    </a>
-                  </div>
-                  </td>
-                  <td>
-                    <div class="mail">
-          <a href="mailto:urielkugelmass@utexas.edu">
-        <i class="fa fa-envelope-o fa-2x" aria-hidden="false"></i></a></div>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
+
+            <div class = "personalInfo">
+
+              <div class="resume">
+                <a href="Resume/Resume Uriel Kugelmass.pdf" class="resume" target="_blank">RESUME</a>
+              </div>
+
+              <div class="linkedin">
+                <a href="https://uy.linkedin.com/pub/uriel-kugelmass/b0/60/535">
+                  <i class="fa fa-linkedin-square fa-2x" aria-hidden="false"></i>
+                </a>
+              </div>
+
+              <div class="github">
+                <a href= "https://github.com/UrielKugelmass">
+                  <i class="fa fa-github-square fa-2x" aria-hidden="false"></i>
+                </a>
+              </div>
+
+              <div class="mail">
+                <a href="mailto:urielkugelmass@utexas.edu">
+                  <i class="fa fa-envelope-o fa-2x" aria-hidden="false"></i>
+                </a>
+            </div>
           </div>
-    </header>
 
-    <!-- About -->
+        </header>
 
-    <section id="footer">
-
-
-			</section>
 
     <!-- jQuery Version 1.11.0 -->
     <script src="js/jquery-1.11.0.js"></script>
@@ -99,33 +87,7 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
-    <!-- Custom Theme JavaScript -->
-    <script>
-    // Closes the sidebar menu
-    $("#menu-close").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });
 
-
-
-    // Scrolls to the selected menu item on the page
-    $(function() {
-        $('a[href*=#]:not([href=#])').click(function() {
-            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
-
-                var target = $(this.hash);
-                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                if (target.length) {
-                    $('html,body').animate({
-                        scrollTop: target.offset().top
-                    }, 1000);
-                    return false;
-                }
-            }
-        });
-    });
-    </script>
 
 </body>
 
