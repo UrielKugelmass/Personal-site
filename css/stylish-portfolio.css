@@ -16,6 +16,13 @@ body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+
+h1.title-name {
+  font-family: Montserrat;
+  color: white;
+  padding-top: 15px;
+}
+
 .text-vertical-center {
     display: table-cell;
     text-align: center;
